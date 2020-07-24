@@ -1,0 +1,120 @@
+GuildMemberRoleManager {
+    member: GuildMember {
+      guild: Guild {
+        members: [GuildMemberManager],
+        channels: [GuildChannelManager],
+        roles: [RoleManager],
+        presences: [PresenceManager],
+        voiceStates: [VoiceStateManager],
+        deleted: false,
+        available: true,
+        id: '552881714196774953',
+        shardID: 0,
+        name: 'kaaroDiscord',
+        icon: 'd8cde8e2c03dbe64cc593a513f5ae3cf',
+        splash: null,
+        region: 'singapore',
+        memberCount: 18,
+        large: false,
+        features: [],
+        applicationID: null,
+        afkTimeout: 300,
+        afkChannelID: null,
+        systemChannelID: '552881714196774962',
+        embedEnabled: undefined,
+        premiumTier: 0,
+        premiumSubscriptionCount: 0,
+        verificationLevel: 'NONE',
+        explicitContentFilter: 'DISABLED',
+        mfaLevel: 0,
+        joinedTimestamp: 1595589925994,
+        defaultMessageNotifications: 'ALL',
+        systemChannelFlags: [SystemChannelFlags],
+        vanityURLCode: null,
+        description: null,
+        banner: null,
+        rulesChannelID: null,
+        publicUpdatesChannelID: null,
+        ownerID: '305089574164627456',
+        emojis: [GuildEmojiManager]
+      },
+      user: User {
+        id: '305089574164627456',
+        bot: false,
+        username: 'karx',
+        discriminator: '1041',
+        avatar: 'b9278a3b0309b60d57cea02b9c4bd135',
+        flags: [UserFlags],
+        lastMessageID: '736187127930552371',
+        lastMessageChannelID: '594092706733752339'
+      },
+      joinedTimestamp: 1551887672781,
+      lastMessageID: '736187127930552371',
+      lastMessageChannelID: '594092706733752339',
+      premiumSinceTimestamp: null,
+      deleted: false,
+      _roles: [ '736182995677085708' ],
+      nickname: null
+    },
+    guild: Guild {
+      members: GuildMemberManager {
+        cacheType: [Function: Collection],
+        cache: [Collection [Map]],
+        guild: [Circular]
+      },
+      channels: GuildChannelManager {
+        cacheType: [Function: Collection],
+        cache: [Collection [Map]],
+        guild: [Circular]
+      },
+      roles: RoleManager {
+        cacheType: [Function: Collection],
+        cache: [Collection [Map]],
+        guild: [Circular]
+      },
+      presences: PresenceManager {
+        cacheType: [Function: Collection],
+        cache: [Collection [Map]]
+      },
+      voiceStates: VoiceStateManager {
+        cacheType: [Function: Collection],
+        cache: Collection [Map] {},
+        guild: [Circular]
+      },
+      deleted: false,
+      available: true,
+      id: '552881714196774953',
+      shardID: 0,
+      name: 'kaaroDiscord',
+      icon: 'd8cde8e2c03dbe64cc593a513f5ae3cf',
+      splash: null,
+      region: 'singapore',
+      memberCount: 18,
+      large: false,
+      features: [],
+      applicationID: null,
+      afkTimeout: 300,
+      afkChannelID: null,
+      systemChannelID: '552881714196774962',
+      embedEnabled: undefined,
+      premiumTier: 0,
+      premiumSubscriptionCount: 0,
+      verificationLevel: 'NONE',
+      explicitContentFilter: 'DISABLED',
+      mfaLevel: 0,
+      joinedTimestamp: 1595589925994,
+      defaultMessageNotifications: 'ALL',
+      systemChannelFlags: SystemChannelFlags { bitfield: 0 },
+      vanityURLCode: null,
+      description: null,
+      banner: null,
+      rulesChannelID: null,
+      publicUpdatesChannelID: null,
+      ownerID: '305089574164627456',
+      emojis: GuildEmojiManager {
+        cacheType: [Function: Collection],
+        cache: Collection [Map] {},
+        guild: [Circular]
+      }
+    }
+  }
