@@ -1,5 +1,7 @@
 ## Discord Bot
-Bot to share custom game room info via discord
+Bot to share custom game room info via discord.
+
+Created for Gaming Star Discord.
 
 ### How to Use
 * Set trigger words. (BlueOP, RedOP,...)
