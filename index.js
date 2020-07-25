@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require('./config.json')
-const nameOfAccessRole = "Gaming Squad";
+// const nameOfAccessRole = "Gaming Squad 24th July - A";
+const nameOfAccessRole = "Gaming Squad 24th July - B";
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -48,11 +49,11 @@ client.on("message", (msg) => {
               fields: [
                 {
                   name: "Room ID",
-                  value: "4912324",
+                  value: "5243151",
                 },
                 {
                   name: "Password",
-                  value: "city",
+                  value: "like",
                 },
                 {
                   name: "----",
@@ -78,11 +79,14 @@ function checkIfPlayRequest(msgString) {
     lowerMsg === "i wanna play with gaming stars" ||
     lowerMsg === "add me to custom room" ||
     lowerMsg === "I want to be in gaming squad" ||
-    lowerMsg.replace(/\s+/g,'') === "yuktiop" ||
-    lowerMsg.replace(/\s+/g,'') === "badeop" ||
-    lowerMsg.replace(/\s+/g,'') === "baadeop" ||
-    lowerMsg.replace(/\s+/g,'') === "princeop" ||
-    lowerMsg.replace(/\s+/g,'') === "xyaaop" 
+    // lowerMsg.replace(/\s+/g,'') === "yuktiop" ||
+    // lowerMsg.replace(/\s+/g,'') === "badeop" ||
+    // lowerMsg.replace(/\s+/g,'') === "baadeop" ||
+    // lowerMsg.replace(/\s+/g,'') === "princeop" ||
+    // lowerMsg.replace(/\s+/g,'') === "xyaaop"  
+    lowerMsg.replace(/\s+/g,'') === "blueop" ||
+    lowerMsg.replace(/\s+/g,'') === "redop" 
+    
   )
     return true;
   else return false;
